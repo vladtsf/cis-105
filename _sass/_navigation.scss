@@ -1,0 +1,25 @@
+.b-navigation {
+
+  &.b-navigation_home {
+    text-align: center;
+  }
+
+  .b-navigation__itemsContainer {
+    list-style-type: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+
+    .b-navigation__item {
+      display: inline-block;
+      text-transform: capitalize;
+      padding: 0 5px;
+
+      a {
+        color: #000;
+      }
+    }
+  }
+}

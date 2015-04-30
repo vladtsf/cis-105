@@ -1,0 +1,14 @@
+# Site settings
+title: Vlad T's Web Page
+email: vtsvang@gmail.com
+description: This page is created within CIS-105
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cis-105.vladt.us" # the base hostname & protocol for your site
+twitter_username: vovateee
+github_username:  vtsvang
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - divshot.json
