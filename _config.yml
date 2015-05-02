@@ -11,4 +11,8 @@ github_username:  vtsvang
 markdown: kramdown
 
 exclude:
+  - ig.coffee
+  - instagram.json
   - divshot.json
+  - package.json
+  - node_modules

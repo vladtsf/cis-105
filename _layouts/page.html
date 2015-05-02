@@ -1,14 +1,25 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="b-page">
+  <div class="b-page__container">
+    <header class="b-page__header">
+      <h2 class="b-page__siteTitle">{{ site.title }}</h2>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+      <nav role="navigation" class="b-navigation b-navigation_page">
+        {% include navigation.html %}
+      </nav>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+      <h1 class="b-page__title">{{ page.title }}</h1>
+    </header>
+
+    <article class="b-post__content">
+      {{ content }}
+    </article>
+  </div>
+
 
 </div>
+
+<!-- {% include footer.html %} -->
+

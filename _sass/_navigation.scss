@@ -2,6 +2,10 @@
 
   &.b-navigation_home {
     text-align: center;
+
+    .b-navigation__item_home {
+      display: none !important;
+    }
   }
 
   .b-navigation__itemsContainer {

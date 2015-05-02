@@ -1,0 +1,9 @@
+{
+  "name": "cis-105",
+  "description": "",
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "instagram-node": "^0.5.7"
+  }
+}

@@ -1,5 +1,7 @@
 ---
 layout: home
+title: Home
+permalink: /
 ---
 
 <div class="b-home">
@@ -10,11 +12,7 @@ layout: home
     </div>
 
     <nav class="b-navigation b-navigation_home">
-      <ul class="b-navigation__itemsContainer">
-        <li class="b-navigation__item"><a href="#foo">about me</a></li>
-        <li class="b-navigation__item"><a href="#foo">gallery</a></li>
-        <li class="b-navigation__item"><a href="#foo">contact</a></li>
-      </ul>
+      {% include navigation.html %}
     </nav>
   </main>
 </div>

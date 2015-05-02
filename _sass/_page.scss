@@ -1,0 +1,27 @@
+.b-page {
+  text-align: center;
+
+  .b-page__container {
+    width: 1000px;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .b-page__title {
+    margin-top: 30px;
+    font-size: 26px;
+    text-decoration: underline;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+  }
+
+  .b-page__siteTitle {
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .b-post__content {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+  }
+}

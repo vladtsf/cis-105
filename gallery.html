@@ -1,0 +1,12 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+{% for post in site.posts %}
+<div class="b-gallery">
+  <ins class="b-gallery__image">
+    <img src="{{ post.src }}" width="150" height="150">
+  </ins>
+</div>
+{% endfor %}
