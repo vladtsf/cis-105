@@ -2,6 +2,6 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-04-29 23:15:55
-src: https://scontent.cdninstagram.com/hphotos-xap1/l/t51.2885-15/s150x150/e15/10831827_1524168937840257_784229178_n.jpg
+src: /images/posts/10831827_1524168937840257_784229178_n.jpg
 ---
 w/ Mr. Najjar, my favorite stats professor and just a nice person.
