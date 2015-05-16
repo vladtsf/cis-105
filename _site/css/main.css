@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+body {
+  margin: 0; }
+
+.b-portrait {
+  text-align: center; }
+  .b-portrait .b-portrait__name {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    margin: 10px 0 0; }
+
+.b-home {
+  position: absolute;
+  background: url("/images/bg.jpg") no-repeat;
+  background-size: 100% 100%;
+  min-width: 100%;
+  min-height: 100%;
+  padding-bottom: 100px;
+  text-align: center; }
+  .b-home .b-home__main {
+    width: 230px;
+    display: inline-block;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+    margin-top: 100px; }
+
+.b-navigation.b-navigation_home {
+  text-align: center; }
+  .b-navigation.b-navigation_home .b-navigation__item_home {
+    display: none !important; }
+.b-navigation .b-navigation__itemsContainer {
+  list-style-type: none;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+  margin: 0; }
+  .b-navigation .b-navigation__itemsContainer .b-navigation__item {
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0 5px; }
+    .b-navigation .b-navigation__itemsContainer .b-navigation__item a {
+      color: #000; }
+
+.b-gallery .b-gallery__image {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  font-size: 0;
+  margin-bottom: 15px; }
+
+.b-footer {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+  .b-footer a {
+    color: #fff; }
+
+.b-footer_page {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0; }
+
+.b-page {
+  text-align: center; }
+  .b-page .b-page__container {
+    width: 1000px;
+    text-align: left;
+    display: inline-block; }
+  .b-page .b-page__title {
+    margin-top: 30px;
+    font-size: 26px;
+    text-decoration: underline;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500; }
+  .b-page .b-page__siteTitle {
+    font-family: 'PT Sans', sans-serif; }
+  .b-page .b-post__content {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200; }
